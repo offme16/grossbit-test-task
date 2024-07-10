@@ -1,0 +1,87 @@
+.Box {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 14px;
+  max-width: 200px;
+  box-sizing: border-box;
+}
+
+.input {
+  width: 80%;
+  padding: 8px;
+  font-size: 20px;
+  border: none;
+  border-radius: 14px;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.selectWrapper {
+  position: relative;
+  width: 40%;
+}
+
+.select {
+  padding: 8px;
+  cursor: pointer;
+  border-left: 1px solid #ccc;
+  display: flex;
+  font-weight: 500;
+  height: 100%;
+  align-items: center;
+}
+
+.selectGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.options {
+  position: absolute;
+  font-size: 12px;
+  width: 100%;
+  border-radius: 12px;
+  top: 100%;
+  left: 0;
+  border: 1px solid #ccc;
+  background-color: white;
+  z-index: 1;
+}
+
+.option {
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  gap: 5px;
+  border-radius: 12px;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.scroll {
+  width: 20px;
+  height: 20px;
+}
+

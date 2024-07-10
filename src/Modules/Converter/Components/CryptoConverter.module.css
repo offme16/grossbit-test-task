@@ -1,0 +1,44 @@
+.Conteiner {
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow:  14px 14px 48px #9f9f9f,
+             -14px -14px 48px #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Converter {
+    display: flex;
+}
+  .Switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .SwitchImage {
+    width: 25px;
+    height: 25px;
+}
+span {
+    font-weight: 500;
+}
+.LoaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+@media (max-width: 600px) {
+    .Converter {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Switch {
+        rotate: 90deg;
+    }
+
+}
