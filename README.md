@@ -26,4 +26,5 @@
 
 ### 1. Склонируйте репозиторий
 ### 2. `npm install`
-### 3. `npm start`
+### 3.  Создайте файл .env в корне проекта и добавьте туда свой ключ `REACT_APP_API_KEY=ваш_ключ_здесь` - https://cryptorank.io/ru
+### 4. `npm start`
